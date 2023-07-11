@@ -1,0 +1,39 @@
+body{
+    background: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#heading{
+    color: white;
+    background:black;
+    width:700px;
+    text-align: center;
+    margin: auto;
+}
+#content{
+    display:flex;
+    background: rgba(0, 0,0, 0.7);
+    height:530px;
+    width:1050px;
+    margin:auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+img{
+    height: 150px;
+    width: 140px;
+    border: 3px solid white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+#title{
+    color:white;
+    display:flex;
+    width:670px;
+    background:black;
+    margin:auto;
+    justify-content: space-between;
+}
